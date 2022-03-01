@@ -1,0 +1,81 @@
+@font-face{
+    font-family:'fonte_hora';
+    src:url('fonte/fontedigital/DS-DIGI.TTF')format('truetype');
+}
+@font-face{
+    font-family:'lemon';
+    src:url('fonte/louis_george_caf/Louis\ George\ Cafe\ Light.ttf')format('truetype');
+}
+*{
+    margin:0px;
+}
+body{
+    background-image: linear-gradient(to right,#A09EBB,#A8AEC1,#B5D2CB);
+    background-attachment:fixed;
+    /*weight e family*/
+    font: 700 'lemon';
+}
+header aside{
+    display: block;
+    padding:2px;
+    width:90px;
+    text-align: center;
+    /* weight e size */
+    font: bold 20px; 
+}
+#msg,#imc{
+    padding:0px;
+}
+h1{
+    text-align:center;
+    margin:auto; 
+}
+p{
+    text-align:center;
+    padding:30px;
+}
+hr{
+  margin-bottom: 30px; 
+} 
+section{
+   
+    width:180px;
+    max-height: 160px;
+    margin:auto;
+    background-color: white;
+    padding:7px;
+    border-radius:5px;
+    box-shadow:1px 1px 0.5px rgba(0, 0, 0, 0.555);
+}
+section:hover{
+    background-color:rgb(227, 235, 241);
+}
+section input{
+    width:170px;
+    margin:3px;
+    text-align:center;
+}
+#botao{ 
+    padding:3px;
+    width:178px;
+    border-radius:5px;
+    font: 1em 600;
+}
+#botao:hover{
+    background-color:#827eb8;
+    color:white;
+    font-size:16px;
+    border-radius:5px;  
+} 
+aside{
+    display: inline-block;
+    text-align:left;
+    padding:10px;
+    font-size:18px;
+    font-family:'fonte_hora';
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+    padding:10px;
+}

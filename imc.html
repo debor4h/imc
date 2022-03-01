@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice De Massa Corporal</title>
+    <link rel = "stylesheet" href = "estilo.css">
+    <link rel = "shortcut icon" href = "favicon_io/favicon.ico" type = "image/x-icon">
+
+</head>
+<body onload="horaData()">
+    <main>
+        <header>
+            <aside id = 'data'></aside>
+            <aside id = 'horas'></aside>
+            <h1>IMC</h1>
+        </header>
+       
+        <p>Calculando seu Índice De Massa Corporal</p>
+        <hr>
+        <section>
+            <label for="peso">Informe seu peso (Kg)</label>
+            <input type = "number" name = "peso" id = "peso" >
+            <label for="altura">Informe sua altura (M)</label>
+            <input type ="number" name = "altura" id = "altura" placeholder = "Colocar ponto(.)">
+            <input type ="button" value="Calcular" id="botao" onclick="calcular()" onclick="clicar()">
+            <p id = "msg"></p>
+            <p id = "imc"></p>
+        </section>
+    </main>
+    <footer>Brasil &copy;</footer>
+    <script src = "script.js"></script>
+</body>
+</html>
